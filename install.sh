@@ -11,7 +11,7 @@ cd /tmp
 wget https://www.kernel.org/pub/linux/kernel/projects/backports/2015/11/20/backports-20151120.tar.gz
 tar -xf backports-20151120.tar.gz
 cd backports-20151120
-make defconfig-ath10
+make defconfig-ath10k
 make
 sudo make install
 
