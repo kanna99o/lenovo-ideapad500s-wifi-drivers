@@ -14,4 +14,3 @@ cd backports-20151120
 make defconfig-ath10k
 make
 sudo make install
-
